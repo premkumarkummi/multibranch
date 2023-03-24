@@ -42,7 +42,7 @@ pipeline
         }
         failure
         {
-            mail bcc: '', body: '', cc: '', from: '', replyTo: '', subject: 'Build failed', to: 'gandham.saikrishna@gmail.com'
+            mail bcc: '', body: '', cc: '', from: '', replyTo: '', subject: 'Build failed', to: 'premcpujar@gmail.com'
             
         }
         
