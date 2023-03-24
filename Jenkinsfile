@@ -18,6 +18,6 @@ node('built-in')
         }
 	stage('Continous Delivery') 
      {
-      sh 'scp   /home/ubuntu/.jenkins/workspace/multi_project_loans/webapp/target/webapp.war ubuntu@172.31.42.147:/var/lib/tomcat9/webapps/prodenv.war'
+      sh 'scp /home/ubuntu/.jenkins/workspace/multi_project_master/webapp/target/webapp.war ubuntu@172.31.42.147:/var/lib/tomcat9/webapps/prodenv.war'
      }
 }
