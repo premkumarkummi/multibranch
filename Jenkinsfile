@@ -12,4 +12,8 @@ node('built-in')
 	 {
     sh 'scp /home/ubuntu/.jenkins/workspace/multi_project_master/webapp/target/webapp.war ubuntu@172.31.37.35:/var/lib/tomcat9/webapps/qaenv.war'
 	 }
+	stage('Continuous testing')
+	{
+      sh 'echo "my lover is always lucky" '
+        }
 }
